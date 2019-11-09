@@ -1,0 +1,74 @@
+07/11/2018 07:46:28 Utils ********************Execution Started******************
+07/11/2018 07:46:28 Utils Path properties location accepted successfully--->E:\frameworkss\TestAutomationFramework\TestAutomationFramework\conf\path.properties
+07/11/2018 07:46:28 Utils Object properties location accepted successfully--->E:\frameworkss\TestAutomationFramework\TestAutomationFramework\conf\smartBear.properties
+07/11/2018 07:46:29 Utils XlsReaderPath--->E:\frameworkss\TestAutomationFramework\TestAutomationFramework\testsuites\Commonscenario\login.xlsx
+07/11/2018 07:46:29 XlsUtils Test Case Column Count--->9
+07/11/2018 07:46:29 XlsUtils Test Case Row Count--->9
+07/11/2018 07:46:29 XlsUtils TCID--->PRCS
+07/11/2018 07:46:29 XlsUtils TCID--->PRCT01
+07/11/2018 07:46:29 XlsUtils TCID--->TC01
+07/11/2018 07:46:29 XlsUtils TCID--->
+07/11/2018 07:46:29 XlsUtils TCID--->
+07/11/2018 07:46:29 XlsUtils TCID--->
+07/11/2018 07:46:29 XlsUtils TCID--->
+07/11/2018 07:46:29 XlsUtils TCID--->
+07/11/2018 07:46:29 XlsUtils TestCasesMap Size-->4
+07/11/2018 07:46:29 XlsUtils TestSteps RowsCount-->8
+07/11/2018 07:46:29 XlsUtils TestSteps Columncount-->7
+07/11/2018 07:46:29 XlsUtils TestStepMap Size--->5
+07/11/2018 07:46:29 XlsUtils DataRowCount-->3
+07/11/2018 07:46:29 XlsUtils DataColumnCount-->3
+07/11/2018 07:46:29 XlsUtils TotalListSize-->1
+07/11/2018 07:46:29 RunTest TCID---PreCond--->PRCS
+07/11/2018 07:46:29 RunTest keywords---openChrome
+07/11/2018 07:46:29 RunTest TestStepData--->strparm :: ~~
+07/11/2018 07:46:29 RunTest keywords---> openChrome--Parmeter--->~~
+07/11/2018 07:46:29 RunTest Executing openChrome
+07/11/2018 07:46:42 RunTest Browser launched successfully
+07/11/2018 07:46:42 RunTest Result---> Pass
+07/11/2018 07:46:42 RunTest strKey ::: 
+07/11/2018 07:46:42 RunTest strKey ::: PRCT01
+07/11/2018 07:46:42 RunTest strKey ::: PRCS
+07/11/2018 07:46:42 RunTest strKey ::: TC01
+07/11/2018 07:46:42 RunTest--TC01 listTestCases-- testcond
+07/11/2018 07:46:42 RunTest--TC01 Post condition
+07/11/2018 07:46:42 RunTest--TC01 Post condition 1
+07/11/2018 07:46:42 RunTest--TC01 TCID :: TC01 Precond :: PRCT01 PostCond ::  TestREf  ::  TDID :: TD01,TD02 TestDataRef ::  Description :: login in to the application Run Mode Y
+07/11/2018 07:46:42 RunTest--TC01  strTestPreCon PRCT01
+07/11/2018 07:46:42 RunTest--TC01 keywords---navigate
+07/11/2018 07:46:42 RunTest--TC01 TestStepData--->strparm :: smartBear.url~~
+07/11/2018 07:46:42 RunTest--TC01 keywords---> navigate--Parmeter--->smartBear.url~~
+07/11/2018 07:46:42 RunTest--TC01 Executing navigate Keyword
+07/11/2018 07:46:42 RunTest--TC01 Input from property file http://downloads.smartbear.com/samples/TestComplete10/WebOrders/Login.aspx?
+07/11/2018 07:46:49 RunTest--TC01 Navigated to--->smartBear.url
+07/11/2018 07:46:49 RunTest--TC01 Result---> Pass
+07/11/2018 07:46:49 RunTest--TC01 completed>>strTestPreCon>>>..
+07/11/2018 07:46:49 RunTest--TC01 keywords---inputData
+07/11/2018 07:46:49 RunTest--TC01 TestStepData--->TV01strparm :: smartBear.username~~XPATH
+07/11/2018 07:46:49 RunTest--TC01 TDID--->TD01~
+07/11/2018 07:46:49 RunTest--TC01 keywords---> inputData--Parmeter--->smartBear.username~~XPATH~~tester
+07/11/2018 07:46:49 RunTest--TC01 Executing inputdata Keyword
+07/11/2018 07:46:49 RunTest--TC01 locator type---XPATH
+07/11/2018 07:46:49 RunTest--TC01 Input data-->tester
+07/11/2018 07:46:49 RunTest--TC01 Result---> Pass
+07/11/2018 07:46:49 RunTest--TC01 keywords---inputData
+07/11/2018 07:46:49 RunTest--TC01 TestStepData--->TV02strparm :: smartBear.password~~XPATH
+07/11/2018 07:46:49 RunTest--TC01 TDID--->TD01~
+07/11/2018 07:46:49 RunTest--TC01 keywords---> inputData--Parmeter--->smartBear.password~~XPATH~~test
+07/11/2018 07:46:49 RunTest--TC01 Executing inputdata Keyword
+07/11/2018 07:46:49 RunTest--TC01 locator type---XPATH
+07/11/2018 07:46:49 RunTest--TC01 Input data-->test
+07/11/2018 07:46:49 RunTest--TC01 Result---> Pass
+07/11/2018 07:46:49 RunTest--TC01 keywords---click
+07/11/2018 07:46:49 RunTest--TC01 TestStepData--->strparm :: smartBear.login~~XPATH
+07/11/2018 07:46:49 RunTest--TC01 keywords---> click--Parmeter--->smartBear.login~~XPATH
+07/11/2018 07:46:49 RunTest--TC01 Executing click Keyword
+07/11/2018 07:46:49 RunTest--TC01 locatorType---XPATH
+07/11/2018 07:46:53 RunTest--TC01 Clicked webelement-->smartBear.login--successfully
+07/11/2018 07:46:53 RunTest--TC01 Result---> Pass
+07/11/2018 07:46:53 RunTest--TC01 keywords---inputData
+07/11/2018 07:46:53 RunTest--TC01 TestStepData--->TV01strparm :: smartBear.username~~XPATH
+07/11/2018 07:46:53 RunTest--TC01 TDID--->TD02~
+07/11/2018 07:46:53 RunTest--TC01 First Sheet is completed...............
+07/11/2018 07:46:53 RunTest--TC01 ********************Execution Ended******************
+07/11/2018 07:46:53 RunTest--TC01 Path properties location input successfully
