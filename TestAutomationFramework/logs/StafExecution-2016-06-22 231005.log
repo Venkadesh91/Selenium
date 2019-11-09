@@ -1,0 +1,89 @@
+22/06/2016 23:10:05 Utils ********************Execution Started******************
+22/06/2016 23:10:05 Utils Path properties location accepted successfully--->C:\Users\Capsone_Test\workspace\TestAutomationFramework\conf\path.properties
+22/06/2016 23:10:05 Utils Object properties location accepted successfully--->C:\Users\Capsone_Test\workspace\TestAutomationFramework\conf\smartBear.properties
+22/06/2016 23:10:07 Utils XlsReaderPath--->C:\Users\Capsone_Test\workspace\TestAutomationFramework\testsuites\Commonscenario\login.xlsx
+22/06/2016 23:10:08 XlsUtils Test Case Column Count--->9
+22/06/2016 23:10:08 XlsUtils Test Case Row Count--->9
+22/06/2016 23:10:08 XlsUtils TCID--->PRCS
+22/06/2016 23:10:08 XlsUtils TCID--->PRCT01
+22/06/2016 23:10:08 XlsUtils TCID--->TC01
+22/06/2016 23:10:08 XlsUtils TCID--->
+22/06/2016 23:10:08 XlsUtils TCID--->
+22/06/2016 23:10:08 XlsUtils TCID--->
+22/06/2016 23:10:08 XlsUtils TCID--->
+22/06/2016 23:10:08 XlsUtils TCID--->
+22/06/2016 23:10:08 XlsUtils TestCasesMap Size-->4
+22/06/2016 23:10:08 XlsUtils TestSteps RowsCount-->8
+22/06/2016 23:10:08 XlsUtils TestSteps Columncount-->7
+22/06/2016 23:10:08 XlsUtils TestStepMap Size--->5
+22/06/2016 23:10:08 XlsUtils DataRowCount-->5
+22/06/2016 23:10:08 XlsUtils DataColumnCount-->3
+22/06/2016 23:10:08 XlsUtils TotalListSize-->2
+22/06/2016 23:10:08 RunTest TCID---PreCond--->PRCS
+22/06/2016 23:10:08 RunTest keywords---openChrome
+22/06/2016 23:10:08 RunTest TestStepData--->strparm :: ~~
+22/06/2016 23:10:08 RunTest keywords---> openChrome--Parmeter--->~~
+22/06/2016 23:10:08 RunTest Executing openChrome
+22/06/2016 23:10:26 RunTest Browser launched successfully
+22/06/2016 23:10:26 RunTest Result---> Pass
+22/06/2016 23:10:26 RunTest strKey ::: 
+22/06/2016 23:10:26 RunTest strKey ::: PRCT01
+22/06/2016 23:10:26 RunTest strKey ::: PRCS
+22/06/2016 23:10:26 RunTest strKey ::: TC01
+22/06/2016 23:10:26 RunTest--TC01 listTestCases-- testcond
+22/06/2016 23:10:26 RunTest--TC01 Post condition
+22/06/2016 23:10:26 RunTest--TC01 Post condition 1
+22/06/2016 23:10:26 RunTest--TC01 TCID :: TC01 Precond :: PRCT01 PostCond ::  TestREf  ::  TDID :: TD01,TD02 TestDataRef ::  Description :: login in to the application Run Mode Y
+22/06/2016 23:10:26 RunTest--TC01  strTestPreCon PRCT01
+22/06/2016 23:10:26 RunTest--TC01 keywords---navigate
+22/06/2016 23:10:26 RunTest--TC01 TestStepData--->strparm :: smartBear.url~~
+22/06/2016 23:10:26 RunTest--TC01 keywords---> navigate--Parmeter--->smartBear.url~~
+22/06/2016 23:10:26 RunTest--TC01 Executing navigate Keyword
+22/06/2016 23:10:26 RunTest--TC01 Input from property file http://downloads.smartbear.com/samples/TestComplete10/WebOrders/Login.aspx?
+22/06/2016 23:10:29 RunTest--TC01 Navigated to--->smartBear.url
+22/06/2016 23:10:29 RunTest--TC01 Result---> Pass
+22/06/2016 23:10:29 RunTest--TC01 completed>>strTestPreCon>>>..
+22/06/2016 23:10:29 RunTest--TC01 keywords---inputData
+22/06/2016 23:10:29 RunTest--TC01 TestStepData--->TV01strparm :: smartBear.username~~XPATH
+22/06/2016 23:10:29 RunTest--TC01 TDID--->TD01~
+22/06/2016 23:10:29 RunTest--TC01 keywords---> inputData--Parmeter--->smartBear.username~~XPATH~~tester
+22/06/2016 23:10:29 RunTest--TC01 Executing inputdata Keyword
+22/06/2016 23:10:29 RunTest--TC01 locator type---XPATH
+22/06/2016 23:10:30 RunTest--TC01 Input data-->tester
+22/06/2016 23:10:30 RunTest--TC01 Result---> Pass
+22/06/2016 23:10:30 RunTest--TC01 keywords---inputData
+22/06/2016 23:10:30 RunTest--TC01 TestStepData--->TV02strparm :: smartBear.password~~XPATH
+22/06/2016 23:10:30 RunTest--TC01 TDID--->TD01~
+22/06/2016 23:10:30 RunTest--TC01 keywords---> inputData--Parmeter--->smartBear.password~~XPATH~~test
+22/06/2016 23:10:30 RunTest--TC01 Executing inputdata Keyword
+22/06/2016 23:10:30 RunTest--TC01 locator type---XPATH
+22/06/2016 23:10:30 RunTest--TC01 Input data-->test
+22/06/2016 23:10:30 RunTest--TC01 Result---> Pass
+22/06/2016 23:10:30 RunTest--TC01 keywords---click
+22/06/2016 23:10:30 RunTest--TC01 TestStepData--->strparm :: smartBear.login~~XPATH
+22/06/2016 23:10:30 RunTest--TC01 keywords---> click--Parmeter--->smartBear.login~~XPATH
+22/06/2016 23:10:30 RunTest--TC01 Executing click Keyword
+22/06/2016 23:10:30 RunTest--TC01 locatorType---XPATH
+22/06/2016 23:10:33 RunTest--TC01 Clicked webelement-->smartBear.login--successfully
+22/06/2016 23:10:33 RunTest--TC01 Result---> Pass
+22/06/2016 23:10:33 RunTest--TC01 keywords---inputData
+22/06/2016 23:10:33 RunTest--TC01 TestStepData--->TV01strparm :: smartBear.username~~XPATH
+22/06/2016 23:10:33 RunTest--TC01 TDID--->TD02~
+22/06/2016 23:10:33 RunTest--TC01 keywords---> inputData--Parmeter--->smartBear.username~~XPATH~~tester
+22/06/2016 23:10:33 RunTest--TC01 Executing inputdata Keyword
+22/06/2016 23:10:33 RunTest--TC01 locator type---XPATH
+22/06/2016 23:10:33 RunTest--TC01 WebElement not found or failed to input data in inputData keyword--no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ctl00_MainContent_username"]"}
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 208 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Hari-HP', ip: '192.168.0.101', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\CAPSON~1\AppData\Local\Temp\scoped_dir7924_11113}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: eee0961e8f3aaa094f1f6b95ece1f10f
+*** Element info: {Using=xpath, value=//*[@id="ctl00_MainContent_username"]}
+22/06/2016 23:10:33 RunTest--TC01 Result---> Fail
+22/06/2016 23:10:33 RunTest--TC01 First Sheet is completed...............
+22/06/2016 23:10:33 RunTest--TC01 ********************Execution Ended******************
+22/06/2016 23:10:33 RunTest--TC01 Path properties location input successfully

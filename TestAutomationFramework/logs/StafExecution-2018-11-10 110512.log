@@ -1,0 +1,57 @@
+10/11/2018 11:05:12 Utils ********************Execution Started******************
+10/11/2018 11:05:12 Utils Path properties location accepted successfully--->E:\frameworkss\TestAutomationFramework\TestAutomationFramework\conf\path.properties
+10/11/2018 11:05:12 Utils Object properties location accepted successfully--->E:\frameworkss\TestAutomationFramework\TestAutomationFramework\conf\smartBear.properties
+10/11/2018 11:05:12 Utils XlsReaderPath--->E:\frameworkss\TestAutomationFramework\TestAutomationFramework\testsuites\Commonscenario\product.xlsx
+10/11/2018 11:05:12 XlsUtils Test Case Column Count--->9
+10/11/2018 11:05:12 XlsUtils Test Case Row Count--->9
+10/11/2018 11:05:12 XlsUtils TCID--->TC001
+10/11/2018 11:05:12 XlsUtils TCID--->TC002
+10/11/2018 11:05:12 XlsUtils TCID--->
+10/11/2018 11:05:12 XlsUtils TCID--->
+10/11/2018 11:05:12 XlsUtils TCID--->
+10/11/2018 11:05:12 XlsUtils TCID--->
+10/11/2018 11:05:12 XlsUtils TCID--->
+10/11/2018 11:05:12 XlsUtils TCID--->
+10/11/2018 11:05:12 XlsUtils TestCasesMap Size-->3
+10/11/2018 11:05:12 XlsUtils TestSteps RowsCount-->18
+10/11/2018 11:05:12 XlsUtils TestSteps Columncount-->7
+10/11/2018 11:05:12 XlsUtils TestStepMap Size--->3
+10/11/2018 11:05:12 XlsUtils DataRowCount-->7
+10/11/2018 11:05:12 XlsUtils DataColumnCount-->3
+10/11/2018 11:05:13 XlsUtils TotalListSize-->2
+10/11/2018 11:05:13 RunTest strKey ::: 
+10/11/2018 11:05:13 RunTest strKey ::: TC001
+10/11/2018 11:05:13 RunTest strKey ::: TC002
+10/11/2018 11:05:13 RunTest--TC001 listTestCases-- testcond
+10/11/2018 11:05:13 RunTest--TC001 Post condition
+10/11/2018 11:05:13 RunTest--TC001 Post condition 1
+10/11/2018 11:05:13 RunTest--TC001 TCID :: TC001 Precond ::  PostCond ::  TestREf  ::  TDID :: TD01 TestDataRef ::  Description :: login to the application Run Mode N
+10/11/2018 11:05:13 RunTest--TC002 listTestCases-- testcond
+10/11/2018 11:05:13 RunTest--TC002 Post condition
+10/11/2018 11:05:13 RunTest--TC002 Post condition 1
+10/11/2018 11:05:13 RunTest--TC002 TCID :: TC002 Precond ::  PostCond ::  TestREf  ::  TDID ::  TestDataRef ::  Description :: place orderRun Mode Y
+10/11/2018 11:05:13 RunTest--TC002 keywords---openChrome
+10/11/2018 11:05:13 RunTest--TC002 TestStepData--->strparm :: ~~
+10/11/2018 11:05:13 RunTest--TC002 keywords---> openChrome--Parmeter--->~~
+10/11/2018 11:05:13 RunTest--TC002 Executing openChrome
+10/11/2018 11:05:19 RunTest--TC002 Browser launched successfully
+10/11/2018 11:05:19 RunTest--TC002 Result---> Pass
+10/11/2018 11:05:19 RunTest--TC002 keywords---navigate
+10/11/2018 11:05:19 RunTest--TC002 TestStepData--->strparm :: smartBear.url~~
+10/11/2018 11:05:19 RunTest--TC002 keywords---> navigate--Parmeter--->smartBear.url~~
+10/11/2018 11:05:19 RunTest--TC002 Executing navigate Keyword
+10/11/2018 11:05:19 RunTest--TC002 Input from property file http://downloads.smartbear.com/samples/TestComplete10/WebOrders/Login.aspx?
+10/11/2018 11:05:24 RunTest--TC002 Navigated to--->smartBear.url
+10/11/2018 11:05:24 RunTest--TC002 Result---> Pass
+10/11/2018 11:05:24 RunTest--TC002 keywords---inputData
+10/11/2018 11:05:24 RunTest--TC002 TestStepData--->TV01strparm :: smartBear.username~~XPATH
+10/11/2018 11:05:24 RunTest--TC002 TDID--->
+10/11/2018 11:05:24 RunTest--TC002 First Sheet is completed...............
+10/11/2018 11:05:24 XlsUtils %d{dd/MM/yyyy HH:mm:ss} %c %m%n
+10/11/2018 11:05:24 RunTest %d{dd/MM/yyyy HH:mm:ss} %c %m%n
+10/11/2018 11:05:25 RunTest First Sheet is completed...............
+10/11/2018 11:05:25 RunTest First Sheet is completed...............
+10/11/2018 11:05:25 RunTest ********************Execution Ended******************
+10/11/2018 11:05:25 RunTest ********************Execution Ended******************
+10/11/2018 11:05:25 RunTest Path properties location input successfully
+10/11/2018 11:05:25 RunTest Path properties location input successfully

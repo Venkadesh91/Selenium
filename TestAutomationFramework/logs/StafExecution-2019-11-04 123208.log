@@ -1,0 +1,163 @@
+04/11/2019 12:32:08 Utils ********************Execution Started******************
+04/11/2019 12:32:08 Utils Path properties location accepted successfully--->E:\frameworkss\TestAutomationFramework\TestAutomationFramework\conf\path.properties
+04/11/2019 12:32:08 Utils Object properties location accepted successfully--->E:\frameworkss\TestAutomationFramework\TestAutomationFramework\conf\smartBear.properties
+04/11/2019 12:32:10 Utils XlsReaderPath--->E:\frameworkss\TestAutomationFramework\TestAutomationFramework\testsuites\Commonscenario\product.xlsx
+04/11/2019 12:32:10 XlsUtils Test Case Column Count--->9
+04/11/2019 12:32:10 XlsUtils Test Case Row Count--->13
+04/11/2019 12:32:10 XlsUtils TCID--->PRCS
+04/11/2019 12:32:10 XlsUtils TCID--->PRCT01
+04/11/2019 12:32:10 XlsUtils TCID--->PRCT02
+04/11/2019 12:32:10 XlsUtils TCID--->TC001
+04/11/2019 12:32:10 XlsUtils TCID--->TC002
+04/11/2019 12:32:10 XlsUtils TCID--->TC003
+04/11/2019 12:32:10 XlsUtils TCID--->POCT01
+04/11/2019 12:32:10 XlsUtils TCID--->POCS
+04/11/2019 12:32:10 XlsUtils TCID--->
+04/11/2019 12:32:10 XlsUtils TCID--->
+04/11/2019 12:32:10 XlsUtils TCID--->
+04/11/2019 12:32:10 XlsUtils TCID--->
+04/11/2019 12:32:10 XlsUtils TestCasesMap Size-->9
+04/11/2019 12:32:10 XlsUtils TestSteps RowsCount-->21
+04/11/2019 12:32:10 XlsUtils TestSteps Columncount-->7
+04/11/2019 12:32:10 XlsUtils TestStepMap Size--->9
+04/11/2019 12:32:10 XlsUtils DataRowCount-->22
+04/11/2019 12:32:10 XlsUtils DataColumnCount-->3
+04/11/2019 12:32:10 XlsUtils TotalListSize-->3
+04/11/2019 12:32:10 RunTest TCID---PreCond--->PRCS
+04/11/2019 12:32:10 RunTest keywords---openChrome
+04/11/2019 12:32:10 RunTest TestStepData--->strparm :: ~~
+04/11/2019 12:32:10 RunTest keywords---> openChrome--Parmeter--->~~
+04/11/2019 12:32:10 RunTest Executing openChrome
+04/11/2019 12:32:27 RunTest Browser launched successfully
+04/11/2019 12:32:27 RunTest Result---> Pass
+04/11/2019 12:32:27 RunTest strKey ::: 
+04/11/2019 12:32:27 RunTest strKey ::: PRCT01
+04/11/2019 12:32:27 RunTest strKey ::: PRCT02
+04/11/2019 12:32:27 RunTest strKey ::: PRCS
+04/11/2019 12:32:27 RunTest strKey ::: TC003
+04/11/2019 12:32:27 RunTest strKey ::: POCS
+04/11/2019 12:32:27 RunTest strKey ::: TC001
+04/11/2019 12:32:27 RunTest strKey ::: TC002
+04/11/2019 12:32:27 RunTest strKey ::: POCT01
+04/11/2019 12:32:27 RunTest--TC001 listTestCases-- testcond
+04/11/2019 12:32:27 RunTest--TC001 Post condition
+04/11/2019 12:32:27 RunTest--TC001 Post condition 1
+04/11/2019 12:32:27 RunTest--TC001 TCID :: TC001 Precond :: PRCT01,PRCT02 PostCond ::  TestREf  ::  TDID :: TD02 TestDataRef ::  Description :: place orderRun Mode Y
+04/11/2019 12:32:27 RunTest--TC001  strTestPreCon PRCT01
+04/11/2019 12:32:27 RunTest--TC001 keywords---navigate
+04/11/2019 12:32:27 RunTest--TC001 TestStepData--->strparm :: smartBear.url~~
+04/11/2019 12:32:27 RunTest--TC001 keywords---> navigate--Parmeter--->smartBear.url~~
+04/11/2019 12:32:27 RunTest--TC001 Executing navigate Keyword
+04/11/2019 12:32:27 RunTest--TC001 Input from property file http://downloads.smartbear.com/samples/TestComplete10/WebOrders/Login.aspx?
+04/11/2019 12:32:33 RunTest--TC001 Navigated to--->smartBear.url
+04/11/2019 12:32:33 RunTest--TC001 Result---> Pass
+04/11/2019 12:32:33 RunTest--TC001 completed>>strTestPreCon>>>..
+04/11/2019 12:32:33 RunTest--TC001  strTestPreCon PRCT02
+04/11/2019 12:32:33 RunTest--TC001 keywords---inputData
+04/11/2019 12:32:33 RunTest--TC001 TestStepData--->TV01strparm :: smartBear.username~~XPATH
+04/11/2019 12:32:33 RunTest--TC001 TDID--->TD01
+04/11/2019 12:32:33 RunTest--TC001 keywords---> inputData--Parmeter--->smartBear.username~~XPATH~~Tester
+04/11/2019 12:32:33 RunTest--TC001 Executing inputdata Keyword
+04/11/2019 12:32:33 RunTest--TC001 locator type---XPATH
+04/11/2019 12:32:34 RunTest--TC001 Input data-->Tester
+04/11/2019 12:32:34 RunTest--TC001 Result---> Pass
+04/11/2019 12:32:34 RunTest--TC001 keywords---inputData
+04/11/2019 12:32:34 RunTest--TC001 TestStepData--->TV02strparm :: smartBear.password~~XPATH
+04/11/2019 12:32:34 RunTest--TC001 TDID--->TD01
+04/11/2019 12:32:34 RunTest--TC001 keywords---> inputData--Parmeter--->smartBear.password~~XPATH~~test
+04/11/2019 12:32:34 RunTest--TC001 Executing inputdata Keyword
+04/11/2019 12:32:34 RunTest--TC001 locator type---XPATH
+04/11/2019 12:32:34 RunTest--TC001 Input data-->test
+04/11/2019 12:32:34 RunTest--TC001 Result---> Pass
+04/11/2019 12:32:34 RunTest--TC001 keywords---click
+04/11/2019 12:32:34 RunTest--TC001 TestStepData--->strparm :: smartBear.login~~XPATH
+04/11/2019 12:32:34 RunTest--TC001 keywords---> click--Parmeter--->smartBear.login~~XPATH
+04/11/2019 12:32:34 RunTest--TC001 Executing click Keyword
+04/11/2019 12:32:34 RunTest--TC001 locatorType---XPATH
+04/11/2019 12:32:38 RunTest--TC001 Clicked webelement-->smartBear.login--successfully
+04/11/2019 12:32:38 RunTest--TC001 Result---> Pass
+04/11/2019 12:32:38 RunTest--TC001 completed>>strTestPreCon>>>..
+04/11/2019 12:32:38 RunTest--TC001 keywords---click
+04/11/2019 12:32:38 RunTest--TC001 TestStepData--->strparm :: selectOrder~~XPATH
+04/11/2019 12:32:38 RunTest--TC001 keywords---> click--Parmeter--->selectOrder~~XPATH
+04/11/2019 12:32:38 RunTest--TC001 Executing click Keyword
+04/11/2019 12:32:38 RunTest--TC001 locatorType---XPATH
+04/11/2019 12:32:39 RunTest--TC001 Clicked webelement-->selectOrder--successfully
+04/11/2019 12:32:39 RunTest--TC001 Result---> Pass
+04/11/2019 12:32:39 RunTest--TC001 keywords---inputData
+04/11/2019 12:32:39 RunTest--TC001 TestStepData--->TV03strparm :: selectProduct~~XPATH
+04/11/2019 12:32:39 RunTest--TC001 TDID--->TD02~
+04/11/2019 12:32:39 RunTest--TC001 keywords---> inputData--Parmeter--->selectProduct~~XPATH~~MyMoney
+04/11/2019 12:32:39 RunTest--TC001 Executing inputdata Keyword
+04/11/2019 12:32:39 RunTest--TC001 locator type---XPATH
+04/11/2019 12:32:40 RunTest--TC001 WebElement not found or failed to input data in inputData keyword--no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'DESKTOP-KTMFFQQ', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50315}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir7848_8883}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=77.0.3865.90, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c52ad2de56211698756e60cb0d4cac94
+*** Element info: {Using=xpath, value=//*[@id="ctl00_MainContent_fmwOrder_ddlProduct"]}
+04/11/2019 12:32:40 RunTest--TC001 Result---> Fail
+04/11/2019 12:32:40 RunTest--TC002 listTestCases-- testcond
+04/11/2019 12:32:40 RunTest--TC002 Post condition
+04/11/2019 12:32:40 RunTest--TC002 Post condition 1
+04/11/2019 12:32:40 RunTest--TC002 TCID :: TC002 Precond ::  PostCond ::  TestREf  ::  TDID ::  TestDataRef ::  Description :: seelct view all prodcutsRun Mode Y
+04/11/2019 12:32:40 RunTest--TC002 keywords---click
+04/11/2019 12:32:40 RunTest--TC002 TestStepData--->strparm :: viewAllProd~~XPATH
+04/11/2019 12:32:40 RunTest--TC002 keywords---> click--Parmeter--->viewAllProd~~XPATH
+04/11/2019 12:32:40 RunTest--TC002 Executing click Keyword
+04/11/2019 12:32:40 RunTest--TC002 locatorType---XPATH
+04/11/2019 12:32:40 RunTest--TC002 WebElement not found for click keyword---no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'DESKTOP-KTMFFQQ', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50315}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir7848_8883}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=77.0.3865.90, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c52ad2de56211698756e60cb0d4cac94
+*** Element info: {Using=xpath, value=//*[@id='ctl00_menu']/li[2]/a}
+04/11/2019 12:32:40 RunTest--TC002 Result---> Fail
+04/11/2019 12:32:40 RunTest--TC003 listTestCases-- testcond
+04/11/2019 12:32:40 RunTest--TC003 Post conditionPOCT01
+04/11/2019 12:32:40 RunTest--TC003 Post condition 1
+04/11/2019 12:32:40 RunTest--TC003 TCID :: TC003 Precond ::  PostCond :: POCT01 TestREf  :: TC001 TDID :: TD03 TestDataRef ::  Description :: entering order dataRun Mode Y
+04/11/2019 12:32:40 RunTest--TC003 &&&&&&&&&&&&true block&&&&&&&&&&&&&&&&&&&&&&&&TC001 :: 
+04/11/2019 12:32:40 RunTest--TC003 keywords---click
+04/11/2019 12:32:40 RunTest--TC003 TestStepData--->strparm :: selectOrder~~XPATH
+04/11/2019 12:32:40 RunTest--TC003 keywords---> click--Parmeter--->selectOrder~~XPATH
+04/11/2019 12:32:40 RunTest--TC003 Executing click Keyword
+04/11/2019 12:32:40 RunTest--TC003 locatorType---XPATH
+04/11/2019 12:32:40 RunTest--TC003 WebElement not found for click keyword---no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.90)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'DESKTOP-KTMFFQQ', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50315}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a), userDataDir=C:\Users\admin\AppData\Local\Temp\scoped_dir7848_8883}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=77.0.3865.90, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c52ad2de56211698756e60cb0d4cac94
+*** Element info: {Using=xpath, value=//*[@id="ctl00_menu"]/li[3]/a}
+04/11/2019 12:32:40 RunTest--TC003 Result---> Fail
+04/11/2019 12:32:40 RunTest--TC003 complted ......test step..............
+04/11/2019 12:32:40 RunTest--TC003 strTCID :::::postcond::::>>>>>>>>>>>> POCS
+04/11/2019 12:32:40 RunTest--TC003 keywords---closeBrowser
+04/11/2019 12:32:40 RunTest--TC003 TestStepData--->strparm :: ~~
+04/11/2019 12:32:40 RunTest--TC003 keywords---> closeBrowser--Parmeter--->~~
+04/11/2019 12:32:40 RunTest--TC003 Executing inputdata Keyword
+04/11/2019 12:33:08 RunTest--TC003 Result---> pass
+04/11/2019 12:33:08 RunTest--TC003 First Sheet is completed...............
+04/11/2019 12:33:08 XlsUtils %d{dd/MM/yyyy HH:mm:ss} %c %m%n
+04/11/2019 12:33:08 RunTest %d{dd/MM/yyyy HH:mm:ss} %c %m%n
+04/11/2019 12:33:08 RunTest First Sheet is completed...............
+04/11/2019 12:33:08 RunTest First Sheet is completed...............
+04/11/2019 12:33:09 RunTest ********************Execution Ended******************
+04/11/2019 12:33:09 RunTest ********************Execution Ended******************
+04/11/2019 12:33:09 RunTest Path properties location input successfully
+04/11/2019 12:33:09 RunTest Path properties location input successfully
